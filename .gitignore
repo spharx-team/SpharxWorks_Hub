@@ -6,3 +6,4 @@
 .git/
 .lingma/
 build/
+.venv/
