@@ -1,0 +1,59 @@
+# 确保所有文本文件使用 UTF-8 编码
+* text=auto encoding=utf-8
+
+# 明确指定常见文件类型为文本文件并使用 UTF-8
+*.c text encoding=utf-8
+*.h text encoding=utf-8
+*.cpp text encoding=utf-8
+*.hpp text encoding=utf-8
+*.cc text encoding=utf-8
+*.hxx text encoding=utf-8
+*.py text encoding=utf-8
+*.go text encoding=utf-8
+*.rs text encoding=utf-8
+*.js text encoding=utf-8
+*.ts text encoding=utf-8
+*.jsx text encoding=utf-8
+*.tsx text encoding=utf-8
+*.json text encoding=utf-8
+*.yml text encoding=utf-8
+*.yaml text encoding=utf-8
+*.md text encoding=utf-8
+*.txt text encoding=utf-8
+*.ini text encoding=utf-8
+*.cfg text encoding=utf-8
+*.conf text encoding=utf-8
+*.xml text encoding=utf-8
+*.html text encoding=utf-8
+*.htm text encoding=utf-8
+*.css text encoding=utf-8
+*.sql text encoding=utf-8
+
+# 确保脚本文件使用 LF 行结尾
+*.sh text eol=lf
+*.py text eol=lf
+*.go text eol=lf
+*.rs text eol=lf
+
+# 二进制文件类型
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.7z binary
+*.pdf binary
+
+# 文档文件
+*.docx binary
+*.xlsx binary
+*.pptx binary
