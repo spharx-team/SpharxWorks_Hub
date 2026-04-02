@@ -8,3 +8,4 @@
 build/
 .venv/
 .本地/
+.vs/
