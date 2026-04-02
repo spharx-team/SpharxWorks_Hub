@@ -1,12 +1,12 @@
 [submodule "Workshop"]
 	path = Workshop
-	url = git@gitee.com:spharx/workshop.git
+	url = git@atomgit.com:spharx/workshop.git
 [submodule "Deepness"]
 	path = Deepness
-	url = git@gitee.com:spharx/deepness.git
+	url = git@atomgit.com:spharx/deepness.git
 [submodule "Benchmark"]
 	path = Benchmark
-	url = git@gitee.com:spharx/benchmark.git
+	url = git@atomgit.com:spharx/benchmark.git
 [submodule "AgentOS"]
 	path = AgentOS
-	url = git@gitee.com:spharx/agentos.git
+	url = git@atomgit.com:spharx/agentos.git
