@@ -1,12 +1,12 @@
-[submodule "Workshop"]
-	path = Workshop
-	url = git@atomgit.com:spharx/workshop.git
-[submodule "Deepness"]
-	path = Deepness
-	url = git@atomgit.com:spharx/deepness.git
-[submodule "Benchmark"]
-	path = Benchmark
-	url = git@atomgit.com:spharx/benchmark.git
 [submodule "AgentOS"]
 	path = AgentOS
 	url = git@atomgit.com:spharx/agentos.git
+[submodule "Benchmark"]
+	path = Benchmark
+	url = git@atomgit.com:spharx/benchmark.git
+[submodule "Deepness"]
+	path = Deepness
+	url = git@atomgit.com:spharx/deepness.git
+[submodule "Workshop"]
+	path = Workshop
+	url = git@atomgit.com:spharx/workshop.git
