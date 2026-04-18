@@ -1,6 +1,3 @@
-[submodule "AgentOS"]
-	path = AgentOS
-	url = git@atomgit.com:spharx/agentos.git
 [submodule "Benchmark"]
 	path = Benchmark
 	url = git@atomgit.com:spharx/benchmark.git
