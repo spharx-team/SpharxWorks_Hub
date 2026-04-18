@@ -1,4 +1,8 @@
 # ========================
+# SpharxTools 根目录 .gitignore
+# ========================
+
+# ========================
 # IDE 配置
 # ========================
 .vscode/
@@ -9,3 +13,108 @@ build/
 .venv/
 .本地/
 .vs/
+*.swp
+*.swo
+*~
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+*.egg
+
+# Python 虚拟环境
+.env/
+venv/
+.venv/
+env/
+
+# ========================
+# Docker
+# ========================
+.docker/
+*.dockerfile
+
+# ========================
+# 编译/构建产物
+# ========================
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ========================
+# 日志文件
+# ========================
+*.log
+logs/
+
+# ========================
+# 临时文件
+# ========================
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# ========================
+# 操作系统文件
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# 测试相关
+# ========================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+
+# ========================
+# 子项目特有忽略
+# ========================
+
+# Benchmark
+Benchmark/metrics/output/
+Benchmark/produce/output/
+
+# Deepness
+deepness/.env
+deepness/__pycache__/
+deepness/build/
+
+# Workshop
+workshop/.env
+workshop/__pycache__/
+workshop/build/
+workshop/partdata/raw/
+workshop/partdata/processed/
+
+# ========================
+# 敏感文件
+# ========================
+*.key
+*.pem
+*.p12
+*.pfx
+*.env.local
+*.env.production
+secrets/
+
+# ========================
+# 大型数据文件
+# ========================
+*.h5
+*.hdf5
+*.parquet
+*.pickle

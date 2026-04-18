@@ -22,6 +22,12 @@ indent_style = tab
 indent_size = 4
 tab_width = 4
 
+# Rust 文件设置
+[*.rs]
+indent_style = space
+indent_size = 4
+tab_width = 4
+
 # Python 文件设置
 [*.py]
 indent_style = space
@@ -65,12 +71,6 @@ indent_style = space
 indent_size = 2
 tab_width = 2
 
-# Rust 文件设置
-[*.rs]
-indent_style = space
-indent_size = 4
-tab_width = 4
-
 # Java 文件设置
 [*.java]
 indent_style = space
@@ -107,12 +107,6 @@ indent_style = space
 indent_size = 2
 tab_width = 2
 
-# Git 忽略文件设置
-[.gitignore]
-indent_style = space
-indent_size = 2
-tab_width = 2
-
 # Dockerfile 设置
 [Dockerfile]
 indent_style = space
@@ -136,13 +130,51 @@ indent_style = space
 indent_size = 2
 tab_width = 2
 
-# 特殊文件：.travis.yml, .github/workflows/*.yml
-[.travis.yml]
+# 特殊文件：.gitignore
+[.gitignore]
 indent_style = space
 indent_size = 2
 tab_width = 2
 
-[.github/workflows/*.yml]
+# 特殊文件：.gitmodules
+[.gitmodules]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+# 特殊文件：.editorconfig 自身
+[.editorconfig]
+indent_style = space
+indent_size = 2
+tab_width = 2
+max_line_length = off
+
+# 特殊文件：.env 文件
+[.env*]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+# 特殊文件：pyproject.toml
+[pyproject.toml]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+# 特殊文件：requirements.txt
+[requirements*.txt]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+# 特殊文件：Docker Compose
+[docker-compose*.yml]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+# 特殊文件：.pre-commit-config.yaml
+[.pre-commit-config.yaml]
 indent_style = space
 indent_size = 2
 tab_width = 2
@@ -158,15 +190,19 @@ indent_style = space
 indent_size = 2
 tab_width = 2
 
-# 特殊文件：.pre-commit-manager.yaml
-[.pre-commit-manager.yaml]
+# 特殊文件：.travis.yml, .github/workflows/*.yml
+[.travis.yml]
 indent_style = space
 indent_size = 2
 tab_width = 2
 
-# 特殊文件：.editorconfig 自身
-[.editorconfig]
+[.github/workflows/*.yml]
 indent_style = space
 indent_size = 2
 tab_width = 2
-max_line_length = off
+
+# Docker 相关文件
+[docker-entrypoint.sh]
+indent_style = space
+indent_size = 2
+tab_width = 2
